@@ -78,7 +78,7 @@ export default class Presentation extends React.Component {
 d3.select("body") // $("body")
 d3.selectAll(".book") // $(".book")
 d3.select("#app") // document.getElementById("app")
-d3.filter(...) // $(...).filter(...)
+d3.select(...).filter(...) // $(...).filter(...)
             `} />
         </Slide>
         <Slide transition={["fade"]} bgColor="tertiary" textColor="primary">
